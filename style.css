@@ -5,6 +5,7 @@
         --cor-de-fundo: rgb(113, 108, 255);
         --fundo-senha: #68afff;
         --fundo-texto: #68afff;
+        --fundo-barra:  #a9cefc;
         --borda: #fcff4a;
         --roboto: 'Roboto', sans-serif;
         --roboto-mono: 'Roboto Mono', monospace;
@@ -121,6 +122,11 @@
 }
 label{
     font-size: 20px;
+}
+.barra{
+    height: 30px;
+    width: 100px;
+    background-color: var(--fundo-barra);
 }
     @media screen and (min-width: 768px) {
         .parametro-coluna__senha {
