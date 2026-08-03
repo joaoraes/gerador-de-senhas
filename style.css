@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root {
-    --branco: white;
-    --cor-de-fundo: #bef1ff;
-    --fundo-senha: #76d4ee;
-    --fundo-texto: #b3e6f5;
-    --borda: #fff86c;
+    --branco: #F8FAFC;
+    --cor-de-fundo: #0F172A;
+    /* Azul escuro profundo e elegante */
+    --fundo-senha: #1E293B;
+    /* Tom de superfície moderno */
+    --fundo-texto: #334155;
+    /* Painel com ótimo contraste */
+    --borda: #38BDF8;
+    /* Azul celeste vibrante e atraente */
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
+
 }
 
 * {
@@ -86,7 +91,7 @@ body {
     margin: 0 auto;
 }
 
-.parametro-senha-botoes{
+.parametro-senha-botoes {
     display: flex;
     justify-content: center;
 }
@@ -102,52 +107,52 @@ body {
 }
 
 .parametro-senha__texto {
-   border-top: 2px solid var(--borda);
-   border-bottom: 2px solid var(--borda);
-   padding: 24px;
-   margin: 0px;
-   font-size: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    padding: 24px;
+    margin: 0px;
+    font-size: 24px;
 
 }
 
-label{
+label {
     font-size: 20px;
 }
 
-.checkbox{
+.checkbox {
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
 
-.barra{
+.barra {
     background-color: var(--fundo-senha);
     height: 30px;
     width: 100%;
 }
 
-.parametro-senha-textos{
+.parametro-senha-textos {
     display: flex;
     justify-content: space-between;
 }
 
-.forca{ 
+.forca {
     height: 30px;
     position: relative;
     bottom: 30px;
 }
 
-.fraca{
+.fraca {
     background-color: #E71B32;
     width: 25%;
 }
 
-.media{
+.media {
     background-color: #FAF408;
     width: 50%;
 }
 
-.forte{
+.forte {
     background-color: #00FF85;
     width: 100%;
 }
